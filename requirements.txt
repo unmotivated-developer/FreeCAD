@@ -16,8 +16,14 @@ pyshp==2.3.1
 PySide2==5.15.2.1
 pysolar==0.10
 PyYAML==6.0
-requests==2.32.0
+requests==2.32.2
 rpdb2==2.0.0.1.2
 sets==0.3.2
 vermin==1.5.1
 pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+fastapi>=0.109.1 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
